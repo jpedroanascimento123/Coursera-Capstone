@@ -3,7 +3,7 @@ dataset = read.csv('Social_Network_Ads.csv')
 dataset = dataset[3:5]
 
 # Splitting the dataset into the Training set and Test set
-# install.packages('caTools')
+install.packages('caTools')
 library(caTools)
 set.seed(123)
 split = sample.split(dataset$Purchased, SplitRatio = 0.75)
