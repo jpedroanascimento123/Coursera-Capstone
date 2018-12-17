@@ -2,9 +2,6 @@
 dataset = read.csv('Social_Network_Ads.csv')
 dataset = dataset[3:5]
 
-# Encoding the target feature as factor
-dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
-
 # Splitting the dataset into the Training set and Test set
 # install.packages('caTools')
 library(caTools)
@@ -21,7 +18,7 @@ test_set[-3] = scale(test_set[-3])
 install.packages('class')
 library(class)
 y_pred = knn(training_set[, -3],
-             test = test_set[, -3]),
+             test = test_set[, -3],
              cl = training_set[, 3],
              k = 5)
 
@@ -55,7 +52,7 @@ X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
 colnames(grid_set) = c('Age', 'EstimatedSalary')
 y_grid = knn(training_set[, -3],
-             test = grid_set[, -3]),
+             test = grid_set[, -3],
 cl = training_set[, 3],
 k = 5)
 plot(set[, -3],
