@@ -1,20 +1,6 @@
-# K-Means Clustering
-
 # Importing the dataset
 dataset = read.csv('Mall_Customers.csv')
 dataset = dataset[4:5]
-
-# Splitting the dataset into the Training set and Test set
-# install.packages('caTools')
-# library(caTools)
-# set.seed(123)
-# split = sample.split(dataset$DependentVariable, SplitRatio = 0.8)
-# training_set = subset(dataset, split == TRUE)
-# test_set = subset(dataset, split == FALSE)
-
-# Feature Scaling
-# training_set = scale(training_set)
-# test_set = scale(test_set)
 
 # Using the elbow method to find the optimal number of clusters
 set.seed(6)
