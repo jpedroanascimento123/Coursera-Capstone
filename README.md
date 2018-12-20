@@ -11,4 +11,4 @@ The projects are organized as follows:
   3) **Clustering** - K-Means Clustering and Hierarchical Clustering.
   4) **Reinforcement Learning** - Upper Confidence Bound and Thomson Sampling.
   5) **Natural Language Processing**.
-  6) **Deep Learning** - Artificial Neural Networks and Convolutional Neural Networks.
+  6) **Deep Learning** - Artificial Neural Networks.
