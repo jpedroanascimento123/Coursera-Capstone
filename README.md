@@ -12,3 +12,4 @@ The projects are organized as follows:
   4) **Reinforcement Learning** - Upper Confidence Bound and Thomson Sampling.
   5) **Natural Language Processing**.
   6) **Deep Learning** - Artificial Neural Networks.
+  7) **Improving the Model's Performance** - Grid Search, K-Fold Cross Validation and XGBoost
