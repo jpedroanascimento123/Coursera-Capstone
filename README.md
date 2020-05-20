@@ -3,11 +3,15 @@
 In this repository, I will place some of my Data Science projects.
 
 The projects are organized as follows:
-
-  1) **Regression** - Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, Support Vector Regression, Decision Tree Regression and Random Forest Regression.
-  2) **Classification** - Logistic Regression, K-Nearest Neighbors, Support Vector Machine, Kernel SVM, Naive Bayes, Decision Tree Classification and Random Forest Classification.
-  3) **Clustering** - K-Means Clustering and Hierarchical Clustering.
-  4) **Reinforcement Learning** - Upper Confidence Bound and Thomson Sampling.
-  5) **Natural Language Processing**.
-  6) **Deep Learning** - Artificial Neural Networks.
-  7) **Improving the Model's Performance** - Grid Search, K-Fold Cross Validation and XGBoost.
+  1) Developed in R:
+    1a) **Regression** - Simple Linear Regression, Multiple Linear Regression, Polynomial Regression, Support Vector Regression, Decision Tree Regression and Random Forest Regression.
+    1b) **Classification** - Logistic Regression, K-Nearest Neighbors, Support Vector Machine, Kernel SVM, Naive Bayes, Decision Tree Classification and Random Forest Classification.
+    1c) **Clustering** - K-Means Clustering and Hierarchical Clustering.
+    1d) **Reinforcement Learning** - Upper Confidence Bound and Thomson Sampling.
+    1e) **Natural Language Processing**.
+    1f) **Deep Learning** - Artificial Neural Networks.
+    1g) **Improving the Model's Performance** - Grid Search, K-Fold Cross Validation and XGBoost.
+  2) Developed in Python:
+    2a) **Linear Regression**
+    2b) **Logistic Regression**
+    2c) **KNN**
